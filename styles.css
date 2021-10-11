@@ -1,0 +1,78 @@
+/*
+Photo by <a href="https://unsplash.com/@ramblere?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Siyan Ren</a> on <a href="https://unsplash.com/s/photos/background?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    background: url("assets/wall.jpg");
+    background-size: cover;
+    background-color: #000000b3;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: normal;
+    height: 100%;
+}
+
+header {
+    background-color: #5e5e5e;
+    color: white;
+    position: relative;
+    top: 0;
+    width: 100%;
+    padding: .5em 0;
+}
+
+main {
+    margin: 1em 0 4em;
+}
+
+section {
+    margin: .3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+img {
+    border: none;
+    border-radius: .5em;
+    width: 200px;
+    filter: drop-shadow(1px 1px 3px #04040480);
+}
+
+figure {
+    padding: .5em;
+}
+
+figcaption {
+    background-color: #d0072b;
+    padding: .3em;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: black;
+    color: silver;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: #24e1e1;
+    font-weight: 600;
+}
+
+footer p {
+    padding: .5em;
+}
