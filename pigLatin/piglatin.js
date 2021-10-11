@@ -7,15 +7,16 @@ function pl() {
     let newStr = "";
     let stra = str.split(" ");
 
-    for (s of stra) {
+    for (s in stra) {
+        let ss = stra[s];
 
-        if (vowels.indexOf(s[0]) > -1) {
-            newStr = str + "way";
+        if (vowels.indexOf(ss[0]) > -1) {
+            newStr += " " + ss + "way";
 
         } else {
-            let firstMatch = s.match(/[aeiou]/g) || 0;
-            let vowel = s.indexOf(firstMatch[0]);
-            newStr = s.substring(vowel) + str.substring(0, vowel) + "ay";
+            let firstMatch = ss.match(/[aeiou]/g) || 0;
+            let vowel = ss.indexOf(firstMatch[0]);
+            newStr = ss.substring(vowel) + ss.substring(0, vowel) + "ay";
         }
     }
     ot.innerHTML = newStr;
