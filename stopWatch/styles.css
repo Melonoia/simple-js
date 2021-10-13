@@ -1,0 +1,47 @@
+* {
+    font-family: monospace;
+}
+
+body {
+    background-color: silver;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#frame,
+button {
+    padding: 1em;
+    border-radius: 5px;
+}
+
+#frame {
+    text-align: center;
+    border: none;
+    width: 60vw;
+    box-shadow: 1px 1px 5px 0 gray;
+    color: pink;
+    background-color: gray;
+}
+
+#timer {
+    font-size: 7vmin;
+}
+
+#buttons {
+    text-align: center;
+}
+
+button {
+    background-color: black;
+    color: pink;
+    border: none;
+    margin: .3em;
+    width: 8em;
+}
+
+button:hover {
+    background-color: pink;
+    color: maroon;
+    filter: drop-shadow(1px 1px 5px gray);
+}
