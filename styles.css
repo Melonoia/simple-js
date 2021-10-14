@@ -16,6 +16,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-blend-mode: overlay;
+    background-attachment: fixed;
     height: 100%;
 }
 
@@ -44,12 +45,16 @@ img {
     border: none;
     border-radius: .5em;
     width: 200px;
-    filter: drop-shadow(1px 1px 3px #04040480);
+}
+
+img:hover {
+    filter: drop-shadow(3px 3px 5px #04040480);
 }
 
 figure {
     padding: .5em;
 }
+
 
 figcaption {
     background-color: #d0072b;
